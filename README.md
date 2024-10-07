@@ -5,7 +5,7 @@ This project demonstrates how to deploy an AWS Infrastructure to host web applic
 
 ## Install
 Perform the following steps:
-1. Download and install AWS CLI.
+1. Download and install AWS CLI, Ensure AWS Credentials are Correct.
 1. Download and install Terraform.
 
  You need an AWS account to deploy the infrastructure.
