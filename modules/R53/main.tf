@@ -11,7 +11,7 @@ resource "aws_route53_zone" "vois-zone" {
 resource "aws_route53_record" "vois-record" {
   zone_id = aws_route53_zone.vois-zone.zone_id
   name    = var.subdomain_name
-  type    = "A"
+  type    = "CNAME"
   ttl     = var.record_ttl
   records = [var.record_value]
 }
